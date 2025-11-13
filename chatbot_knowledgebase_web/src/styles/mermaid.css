@@ -1,0 +1,40 @@
+/* Mermaid diagram styling */
+.mermaid-container {
+  overflow-x: auto;
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+}
+
+.mermaid-container svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Dark mode support for Mermaid diagrams */
+@media (prefers-color-scheme: dark) {
+  .mermaid-container {
+    background: #1f2937;
+    border-color: #374151;
+  }
+}
+
+/* Custom styling for Mermaid error display */
+.mermaid-error {
+  background-color: #fef2f2;
+  border: 1px solid #fca5a5;
+  color: #dc2626;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.mermaid-error pre {
+  background-color: #fee2e2;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  overflow-x: auto;
+}

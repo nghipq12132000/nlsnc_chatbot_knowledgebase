@@ -1,0 +1,20 @@
+[proxy]
+username = 
+password = 
+host = 
+port = 
+
+[server]
+host = localhost
+port = 8000
+protocol = http
+
+[llm_models]
+model = gpt-4.1
+base_url = 
+temperature = 0.1
+
+[embedding_model]
+model = text-embedding-3-small
+base_url = 
+temperature = 0.0
