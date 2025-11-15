@@ -15,7 +15,7 @@ const inter = {
 }
 
 export const metadata: Metadata = {
-  title: "Chatbot Agent",
+  title: "Chatbot",
   description: "",
 };
 

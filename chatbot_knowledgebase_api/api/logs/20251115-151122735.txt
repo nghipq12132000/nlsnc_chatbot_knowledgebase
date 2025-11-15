@@ -1,0 +1,9 @@
+Starting ingest process at 2025-11-15 15:11:22.741115
+Log file created at: ./logs\20251115-151122735.txt
+
+Starting ingest.py execution at 2025-11-15 15:11:22.745904...
+Current working directory: D:\Projects\AITool\nlsnc_chatbot_knowledgebase\chatbot_knowledgebase_api\api
+Command: python ingest.py
+Ingestion completed successfully: 1843 chunks from 1949 documents
+Ingest.py execution completed at 2025-11-15 15:14:26.210035
+Files moved to public_data successfully.
