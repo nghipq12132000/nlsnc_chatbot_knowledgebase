@@ -10,13 +10,13 @@ port = 8000
 protocol = http
 
 [llm_models]
-model = gpt-4.1
+model = gpt-4.1-mini
 base_url = 
 temperature = 0.1
-openai_api_key =
+openai_api_key = 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
 
 [embedding_model]
 model = text-embedding-3-small
 base_url = 
 temperature = 0.0
-openai_api_key =
+openai_api_key = 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
