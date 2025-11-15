@@ -13,8 +13,10 @@ protocol = http
 model = gpt-4.1
 base_url = 
 temperature = 0.1
+openai_api_key =
 
 [embedding_model]
 model = text-embedding-3-small
 base_url = 
 temperature = 0.0
+openai_api_key =
